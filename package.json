@@ -21,6 +21,10 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"],
   "browserslist": {
     "production": [
       ">0.2%",
