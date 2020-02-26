@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   /* 長寬比先用iphone 6 的16:9 */
@@ -19,6 +19,7 @@ export const Content = styled.div`
   padding: 4rem 1rem 0.5rem;
   font-size: 4rem;
   color: #fff;
+  white-space: nowrap;
 `;
 
 export const Row = styled.div`
